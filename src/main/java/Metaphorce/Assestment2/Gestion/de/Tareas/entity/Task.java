@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "tasks")
 public class Task {
+
     //Atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
